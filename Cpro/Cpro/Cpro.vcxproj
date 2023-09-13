@@ -18,6 +18,26 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="main-debug.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CH01_Variable.cpp" />
+    <ClCompile Include="CH02_Operation.cpp" />
+    <ClCompile Include="CH03_Statement.cpp" />
+    <ClCompile Include="CH04-1_Example.cpp" />
+    <ClCompile Include="CH04-2_Example.cpp" />
+    <ClCompile Include="CH05-1_Example.cpp" />
+    <ClCompile Include="CH05_Array.cpp" />
+    <ClCompile Include="CH06-2_Example.cpp" />
+    <ClCompile Include="CH06.String.cpp" />
+    <ClCompile Include="CH07.String.cpp" />
+    <ClCompile Include="Main2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="io.h" />
+    <ClInclude Include="main.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -126,9 +146,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Cpro.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

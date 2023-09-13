@@ -1,0 +1,36 @@
+void OvenTime();
+void Quadrant();
+void LeapYear();
+void SizeComparison();
+void InputOutput();
+void Variable();
+void VariableTypeNumber();
+void VariableTypeCharacter();
+void VariableTypeBool();
+void OperationArithmetic(int Arith1, int Arith2);
+void OperationIncrementDecrement();
+void OperationComparison();
+void OperationLogical();
+void OperationBit();
+void OperationThree();
+void StatementIf();
+void StatementSwitch();
+void StatementNestedIf();
+void StatementFor();
+void StatementWhile();
+
+void GuGuDan(int Dan);
+void VarScope(int Number);
+
+void MultipleCalculate();
+void Receipt();
+void Star();
+void DefineArray();
+void CountNumber();
+void LessNumber();
+void IndexChar();
+void Structure();
+void CallByvalue();
+void AlphaNumber();    
+void Enum();
+void TwoDimension();
